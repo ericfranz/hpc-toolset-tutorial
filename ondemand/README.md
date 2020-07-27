@@ -44,7 +44,7 @@ form:
 
 - `custom_queue` is used instead of `partition` because of 1.8 bug that will be fixed prior to release
 
-script.yml.erb changes:
+submit.yml.erb changes:
 
 ```yaml
 script:
@@ -108,7 +108,7 @@ form:
 - help a help message
 - See https://osc.github.io/ood-documentation/master/app-development/interactive/form.html#customizing-attributes for more details about what you can set in each "attribute"
 
-script.yml.erb modifications:
+submit.yml.erb modifications:
 
 ```
 script:
